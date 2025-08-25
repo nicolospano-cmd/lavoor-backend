@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "role": "employer",
+      "name": "Pizzeria Aurora",
+      "email": "pizzeria@aurora.it",
+      "businessName": "Pizzeria Aurora",
+      "address": "Via Roma 1, Milano",
+      "skills": "",
+      "hasVehicle": false,
+      "hasLicense": false
+    },
+    {
+      "id": "2",
+      "role": "worker",
+      "name": "Luca Bianchi",
+      "email": "luca@example.com",
+      "skills": "cameriere, porta pizze",
+      "hasVehicle": true,
+      "hasLicense": true,
+      "businessName": "",
+      "address": ""
+    }
+  ],
+  "shifts": [
+    {
+      "id": "101",
+      "title": "Cameriere di sala",
+      "date": "2025-09-01",
+      "startTime": "19:00",
+      "endTime": "01:00",
+      "hourlyRate": 10,
+      "totalEstimated": 60,
+      "location": "Milano",
+      "status": "open",
+      "employerId": "1"
+    }
+  ],
+  "matches": []
+}

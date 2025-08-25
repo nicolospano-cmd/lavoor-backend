@@ -1,4 +1,6 @@
-{
+{"scripts": {
+  "start": "node server.js"
+}
   "name": "lavoor-backend",
   "version": "1.1.0",
   "description": "Lavoor demo backend (json-server + custom rules)",

@@ -1,16 +1,14 @@
-{"scripts": {
-  "start": "node server.js"
-}
+{
   "name": "lavoor-backend",
-  "version": "1.1.0",
-  "description": "Lavoor demo backend (json-server + custom rules)",
+  "version": "1.0.0",
+  "description": "Lavoor demo backend",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "dayjs": "^1.11.11",
     "json-server": "^0.17.4",
+    "dayjs": "^1.11.11",
     "validator": "^13.11.0"
   }
 }
